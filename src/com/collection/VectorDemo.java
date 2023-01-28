@@ -9,10 +9,10 @@ public class VectorDemo {
 		v.add(1);
 		v.add("shital");
 		//System.out.println(v);
-		Iterator it=v.iterator();
-		while(it.hasNext())
+		//Iterator it=v.iterator();
+		for(Object o:v)
 		{
-			System.out.println(it.next());
+			System.out.println(o);
 		}
 	}
 
